@@ -103,14 +103,9 @@ serieA_df = pd.read_csv(DATA_PATH)
 serieA_df['date'] = pd.to_datetime(serieA_df['date'])
 ```
 
-## Recommended next steps
-- Add this README.md to the repository root (created by this action).
-- Add `requirements.txt` or `environment.yml`.
-- Optionally: save the main result DataFrames to CSV and add plotting cells (if absent).
 
 ## License & contact
 - No license specified in the repository. If you want a license added (MIT, Apache-2.0, etc.), I can generate a LICENSE file.
 
 ---
 
-This README was generated from analysis-serie-a-dataset-season-2023-2024.ipynb (commit OID: 8c5b68ffdeed3567c2981a90fb620dfc506b6a27).
